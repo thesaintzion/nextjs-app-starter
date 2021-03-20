@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --app-darkslategray: #28412E;
+  --app-sandybrown: #fcc33a; 
+  --app-thistle: #d2bdff;
+  --app-lavender: #e4d7ff;
+  --app-mistyrose: #fbe3e2;
+
+  --app-dimgray: #707070;
+  --app-black: #000000;
+  --app-dark-gray: #acacac;
+  --app-gainsboro: #d9d9d9;
+  --app-whitesmoke: #f4f4f4;
+  --app-silver: #c9c9c9;
+}
+
+html,
+body {
+  padding: 0;
+ 
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  padding: 0;
+  background-color: var(--app-darkslategray) !important;
+  height: 100%;
+}
+
+.bg-darkslategray{
+  background-color: var(--app-darkslategray);
+}
+.text-darkslategray{
+  color: var(--app-darkslategray);
+}
+.bg-sandybrown{
+  background-color: var(--app-sandybrown);
+}
+.text-sandybrown{
+  color: var(--app-sandybrown);
+}
+.bg-thistle{
+  background-color: var(--app-thistle);
+}
+.text-thistle{
+  color: var(--app-thistle);
+}
+.bg-lavender{
+  background-color: var(--app-lavender);
+}
+.text-lavender{
+  color: var(--app-lavender);
+}
+.bg-mistyrose{
+  background-color: var(--app-mistyrose);
+}
+.text-mistyrose{
+  color: var(--app-mistyrose);
+}
+.bg-dimgray{
+  background-color: var(--app-dimgray);
+}
+.text-dimgray{
+  color: var(--app-dimgray);
+}
+.bg-black{
+  background-color: var(--app-black);
+}
+.text-black{
+  color: var(--app-black);
+}
+.bg-gainsboro{
+  background-color: var(--app-gainsboro);
+}
+.text-gainsboro{
+  color: var(--app-gainsboro);
+}
+.bg-darkslategray{
+  background-color: var(--app-darkslategray);
+}
+.text-darkslategray{
+  color: var(--app-darkslategray);
+}
+.bg-whitesmoke{
+  background-color: var(--app-whitesmoke);
+}
+.text-whitesmoke{
+  color: var(--app-whitesmoke);
+}
+.bg-silver{
+  background-color: var(--app-silver);
+}
+.text-silver{
+  color: var(--app-silver);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
